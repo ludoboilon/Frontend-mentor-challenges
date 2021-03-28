@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ludo Boilon - Frontend mentors challenges</title>
+  <title>Ludovic Boilon - Frontend mentors challenges</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header>
+    <!-- <img src="" alt="" class="logo"> -->
+    <h1>frontendmentor.io challenges</h1>
+    <hr>
+    <h2>@ludoboilon</h2>
+  </header>
 
-  <ul>
-    <li>
-      <a href="https://article-preview-component-ludoboilon.vercel.app/" target="_blank">Article preview component
-        <img src="./article-preview-component/design/desktop-preview.jpg" alt="">
-      </a>gir
-    </li>
-    <li>
-      <a href="profile-card-component/" target="_blank">Profile card component
-        <img src="./profile-card-component/design/desktop-preview.jpg" alt="">
-      </a>
-    </li>
-    <li>
-      <a href="https://rest-countries-api-ludoboilon.vercel.app/" target="_blank">REST Countries API
-        <img src="./rest-countries-api-with-color-theme-switcher-master/design/desktop-preview.jpg" alt="">
-      </a>
-    </li>
-  </ul>
+  <div class="carousel">
+    <div class="carousel-inner">
+      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+        checked="checked">
+      <div class="carousel-item">
+        <img src="./images/article-preview.jpg">
+      </div>
+      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item">
+        <img src="./images/profile-card.jpg">
+      </div>
+      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+      <div class="carousel-item">
+        <img src="./images/rest-coutries.jpg">
+      </div>
+      <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+      <label for="carousel-2" class="carousel-control next control-1">›</label>
+      <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+      <label for="carousel-3" class="carousel-control next control-2">›</label>
+      <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+      <label for="carousel-1" class="carousel-control next control-3">›</label>
+      <ol class="carousel-indicators">
+        <li>
+          <label for="carousel-1" class="carousel-bullet">•</label>
+        </li>
+        <li>
+          <label for="carousel-2" class="carousel-bullet">•</label>
+        </li>
+        <li>
+          <label for="carousel-3" class="carousel-bullet">•</label>
+        </li>
+      </ol>
+    </div>
+  </div>
 
+  <footer>hello</footer>
 </body>
+
+<script src="./index.js"></script>
 
 </html>
